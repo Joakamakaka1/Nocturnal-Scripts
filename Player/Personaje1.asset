@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7fdf1bc4f1dfcd47bf6a987c05c5b9c, type: 3}
+  m_Name: Personaje1
+  m_EditorClassIdentifier: 
+  personajeJugable: {fileID: 3320102312970369333, guid: ce84d03a1923667409d0cd256a625b92,
+    type: 3}
+  imagen: {fileID: 7281326847992692079, guid: 106dc2a4656ddf74eb2dde2d94ccb8da, type: 3}
+  nombre: Caballero
