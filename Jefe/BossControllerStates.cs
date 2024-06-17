@@ -126,7 +126,7 @@ public class BossControllerStates : MonoBehaviour
             state = State.Chasing;
             bossController.SetAttacking(false);
             bossController.SetRunning(true);
-            isAttacking = false; // Permitir otro ataque
+            isAttacking = false;
         }
         else if (canAttack)
         {
@@ -139,7 +139,7 @@ public class BossControllerStates : MonoBehaviour
     {
         if (Vector2.Distance(transform.position, PlayerController.Instance.transform.position) < attackRange)
         {
-            PlayerVida.Instance.TakeDamage(1, transform);
+            PlayerVida.Instance.TakeDamage(2, transform);
         }
     }
 

@@ -21,8 +21,8 @@ public class UIShop : MonoBehaviour
 
     private void Start()
     {
-        CreateItemButton(Item.ItemType.Armor_1, Item.GetSprite(Item.ItemType.Armor_1), "Armor 1", Item.GetCost(Item.ItemType.Armor_1), 0);
-        CreateItemButton(Item.ItemType.Potion_1, Item.GetSprite(Item.ItemType.Potion_1), "Pocion 1", Item.GetCost(Item.ItemType.Potion_1), 1);
+        CreateItemButton(Item.ItemType.Armor_1, Item.GetSprite(Item.ItemType.Armor_1), "Velocidad", Item.GetCost(Item.ItemType.Armor_1), 0);
+        CreateItemButton(Item.ItemType.Potion_1, Item.GetSprite(Item.ItemType.Potion_1), "Pocion", Item.GetCost(Item.ItemType.Potion_1), 1);
         CreateItemButton(Item.ItemType.Buff_1, Item.GetSprite(Item.ItemType.Buff_1), "Buff daño x1.5", Item.GetCost(Item.ItemType.Buff_1), 3);
         CreateItemButton(Item.ItemType.Buff_2, Item.GetSprite(Item.ItemType.Buff_2), "Buff daño x2.5", Item.GetCost(Item.ItemType.Buff_2), 4);
 

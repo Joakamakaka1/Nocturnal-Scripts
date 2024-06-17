@@ -61,6 +61,7 @@ public class Enemigo : MonoBehaviour
             GetComponent<PickUpSpawner>().DropItems();
             Destroy(gameObject);
             PuntuacionManager.Instance.SumarPuntos(cantidadPuntos);
+            EnemyManager.instance.EnemigoEliminado();
             puntuaje.UpdateScoreText();
         }
     }

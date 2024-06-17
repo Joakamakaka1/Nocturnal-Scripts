@@ -23,14 +23,14 @@ public class Item
         {
             default:
             case ItemType.ArmorNone: return 0;
-            case ItemType.Armor_1: return 1;
+            case ItemType.Armor_1: return 25;
             case ItemType.Armor_2: return 100;
             case ItemType.LifePotionNone: return 0;
-            case ItemType.Potion_1: return 1;
+            case ItemType.Potion_1: return 15;
             case ItemType.Potion_2: return 100;
             case ItemType.DamageBuffNone: return 0;
-            case ItemType.Buff_1: return 1;
-            case ItemType.Buff_2: return 1;
+            case ItemType.Buff_1: return 10;
+            case ItemType.Buff_2: return 15;
 
         }
     }

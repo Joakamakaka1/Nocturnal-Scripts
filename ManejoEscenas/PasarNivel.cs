@@ -33,9 +33,6 @@ public class PasarNivel : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         cantidadEnemigos = GameObject.FindGameObjectsWithTag("Enemigo").Length;
-
-        enemigosEliminados = 0;
-        totalEnemigosEliminados = 0;
     }
     public static int ObtenerTotalEnemigosEliminados()
     {
